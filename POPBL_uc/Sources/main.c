@@ -89,6 +89,7 @@ int main( void )
 	 * Se suspende la tarea para recibir los infrarrojos
 	 */
 	vTaskSuspend(xHandle_Task_Recibir_Infrarrojos);
+
 	/*
 	 * Comienza el planeador
 	 */
